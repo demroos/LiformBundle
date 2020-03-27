@@ -13,7 +13,13 @@
         "psr-4": { "Limenius\\LiformBundle\\": "" }
     },
     "require": {
-        "limenius/liform": "^0.15.0"
+        "limenius/liform": "dev-dev"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:demroos/Liform.git"
+        }
+    ],
     "minimum-stability": "stable"
 }
